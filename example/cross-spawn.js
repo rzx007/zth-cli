@@ -8,7 +8,8 @@ const dependencies = ['vue', 'vuex', 'vue-router'];
 
 // 执行安装
 const child = spawn('cnpm', ['install', '-D'].concat(dependencies), { 
-    stdio: 'inherit' 
+    stdio: 'inherit' ,
+    cwd: 'D:/test'
 });
 
 // 监听执行结果
