@@ -4,7 +4,7 @@ const { program } = require('commander');
 const chalk = require('chalk'); // 字体颜色
 const figlet = require('figlet'); // 字体转成logo
 const create = require('../lib/create');
-
+const process = require('process');
 program
   .command('create <name>')
   .description('create a new project')
